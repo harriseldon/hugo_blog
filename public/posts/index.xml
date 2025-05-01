@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on A way to collect my thoughts</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on A way to collect my thoughts</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Apr 2025 19:04:30 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Wed, 30 Apr 2025 19:04:30 -0500</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;h1 id=&#34;this-is-the-first-post-to-see-how-the-content-works&#34;&gt;This is the first post to see how the content works&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[!tip] This is a tip&#xA;What does this do?&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;col&lt;/th&gt;&#xA;          &lt;th&gt;col2&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;v&lt;/td&gt;&#xA;          &lt;td&gt;v2&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>
