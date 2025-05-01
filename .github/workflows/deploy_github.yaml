@@ -23,4 +23,5 @@ jobs:
         TARGET_REPO: harriseldon/hugo_blog
         TOKEN: ${{ secrets.TOKEN }}
         CNAME: harriseldon.github.io
+        HUGO_EXTENDED: true
 
