@@ -15,6 +15,6 @@ jobs:
       uses: reuixiy/hugo-deploy@v1
       env:
         DEPLOY_REPO: harriseldon/hugo_blog
-        DEPLOY_KEY: ${{ secrets.TOKEN }}
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         CNAME: harriseldon.github.io
         DEPLOY_BRANCH: blog
