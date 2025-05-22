@@ -11,18 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout main
-      uses: actions/checkout@v1
-      with:
-        submodules: true
-
-    - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@master
+    - name: 'Building ...'
+      uses: reuixiy/hugo-deploy@v1
       env:
-        HUGO_VERSION: 0.145.0
-        TARGET_REPO: harriseldon/hugo_blog
-        TOKEN: ${{ secrets.TOKEN }}
+        DEPLOY_REPO: harriseldon/hugo_blog
+        DEPLOY_KEY: ${{ secrets.TOKEN }}
         CNAME: harriseldon.github.io
-        HUGO_EXTENDED: true
-        HUGO_PUBLISH_DIR: docs
-        HUGO_ARGS: '--gc'
+        DEPLOY_BRANCH: blog
